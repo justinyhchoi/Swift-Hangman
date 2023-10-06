@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302442A32AD0255100DB3750 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302442A22AD0255100DB3750 /* Launch Screen.storyboard */; };
+		30421BD72AD026A700D9983E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30421BD62AD026A700D9983E /* Main.storyboard */; };
 		3F33F4DB1E1CAC2B00B697CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33F4DA1E1CAC2B00B697CE /* AppDelegate.swift */; };
 		3F33F4DD1E1CAC2B00B697CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33F4DC1E1CAC2B00B697CE /* ViewController.swift */; };
-		3F33F4E01E1CAC2B00B697CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F33F4DE1E1CAC2B00B697CE /* Main.storyboard */; };
 		3F33F4E21E1CAC2B00B697CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F33F4E11E1CAC2B00B697CE /* Assets.xcassets */; };
-		3F33F4E51E1CAC2B00B697CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F33F4E31E1CAC2B00B697CE /* LaunchScreen.storyboard */; };
-		3F33F4F01E1CAC2B00B697CE /* Vocabulary_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33F4EF1E1CAC2B00B697CE /* Vocabulary_GameTests.swift */; };
+		3F33F4F01E1CAC2B00B697CE /* VocabularyGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33F4EF1E1CAC2B00B697CE /* VocabularyGameTests.swift */; };
 		3F33F4FB1E1CAC2B00B697CE /* Vocabulary_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33F4FA1E1CAC2B00B697CE /* Vocabulary_GameUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F33F4D71E1CAC2B00B697CE /* Vocabulary Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vocabulary Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302442A22AD0255100DB3750 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		30421BD62AD026A700D9983E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F33F4D71E1CAC2B00B697CE /* VocabularyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabularyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F33F4DA1E1CAC2B00B697CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F33F4DC1E1CAC2B00B697CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F33F4DF1E1CAC2B00B697CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F33F4E11E1CAC2B00B697CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F33F4E41E1CAC2B00B697CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F33F4E61E1CAC2B00B697CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F33F4EB1E1CAC2B00B697CE /* Vocabulary GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vocabulary GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F33F4EF1E1CAC2B00B697CE /* Vocabulary_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary_GameTests.swift; sourceTree = "<group>"; };
+		3F33F4EB1E1CAC2B00B697CE /* VocabularyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabularyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F33F4EF1E1CAC2B00B697CE /* VocabularyGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyGameTests.swift; sourceTree = "<group>"; };
 		3F33F4F11E1CAC2B00B697CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F33F4F61E1CAC2B00B697CE /* Vocabulary GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vocabulary GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F33F4F61E1CAC2B00B697CE /* VocabularyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabularyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F33F4FA1E1CAC2B00B697CE /* Vocabulary_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary_GameUITests.swift; sourceTree = "<group>"; };
 		3F33F4FC1E1CAC2B00B697CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		3F33F4CE1E1CAC2B00B697CE = {
 			isa = PBXGroup;
 			children = (
-				3F33F4D91E1CAC2B00B697CE /* Vocabulary Game */,
-				3F33F4EE1E1CAC2B00B697CE /* Vocabulary GameTests */,
-				3F33F4F91E1CAC2B00B697CE /* Vocabulary GameUITests */,
+				3F33F4D91E1CAC2B00B697CE /* VocabularyGame */,
+				3F33F4EE1E1CAC2B00B697CE /* VocabularyGameTests */,
+				3F33F4F91E1CAC2B00B697CE /* VocabularyGameUITests */,
 				3F33F4D81E1CAC2B00B697CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +87,53 @@
 		3F33F4D81E1CAC2B00B697CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F33F4D71E1CAC2B00B697CE /* Vocabulary Game.app */,
-				3F33F4EB1E1CAC2B00B697CE /* Vocabulary GameTests.xctest */,
-				3F33F4F61E1CAC2B00B697CE /* Vocabulary GameUITests.xctest */,
+				3F33F4D71E1CAC2B00B697CE /* VocabularyGame.app */,
+				3F33F4EB1E1CAC2B00B697CE /* VocabularyGameTests.xctest */,
+				3F33F4F61E1CAC2B00B697CE /* VocabularyGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F33F4D91E1CAC2B00B697CE /* Vocabulary Game */ = {
+		3F33F4D91E1CAC2B00B697CE /* VocabularyGame */ = {
 			isa = PBXGroup;
 			children = (
 				3F33F4DA1E1CAC2B00B697CE /* AppDelegate.swift */,
 				3F33F4DC1E1CAC2B00B697CE /* ViewController.swift */,
-				3F33F4DE1E1CAC2B00B697CE /* Main.storyboard */,
+				30421BD62AD026A700D9983E /* Main.storyboard */,
+				302442A22AD0255100DB3750 /* Launch Screen.storyboard */,
 				3F33F4E11E1CAC2B00B697CE /* Assets.xcassets */,
-				3F33F4E31E1CAC2B00B697CE /* LaunchScreen.storyboard */,
 				3F33F4E61E1CAC2B00B697CE /* Info.plist */,
 			);
+			name = VocabularyGame;
 			path = "Vocabulary Game";
 			sourceTree = "<group>";
 		};
-		3F33F4EE1E1CAC2B00B697CE /* Vocabulary GameTests */ = {
+		3F33F4EE1E1CAC2B00B697CE /* VocabularyGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F33F4EF1E1CAC2B00B697CE /* Vocabulary_GameTests.swift */,
+				3F33F4EF1E1CAC2B00B697CE /* VocabularyGameTests.swift */,
 				3F33F4F11E1CAC2B00B697CE /* Info.plist */,
 			);
+			name = VocabularyGameTests;
 			path = "Vocabulary GameTests";
 			sourceTree = "<group>";
 		};
-		3F33F4F91E1CAC2B00B697CE /* Vocabulary GameUITests */ = {
+		3F33F4F91E1CAC2B00B697CE /* VocabularyGameUITests */ = {
 			isa = PBXGroup;
 			children = (
 				3F33F4FA1E1CAC2B00B697CE /* Vocabulary_GameUITests.swift */,
 				3F33F4FC1E1CAC2B00B697CE /* Info.plist */,
 			);
+			name = VocabularyGameUITests;
 			path = "Vocabulary GameUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F33F4D61E1CAC2B00B697CE /* Vocabulary Game */ = {
+		3F33F4D61E1CAC2B00B697CE /* VocabularyGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F33F4FF1E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "Vocabulary Game" */;
+			buildConfigurationList = 3F33F4FF1E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "VocabularyGame" */;
 			buildPhases = (
 				3F33F4D31E1CAC2B00B697CE /* Sources */,
 				3F33F4D41E1CAC2B00B697CE /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "Vocabulary Game";
+			name = VocabularyGame;
 			productName = "Vocabulary Game";
-			productReference = 3F33F4D71E1CAC2B00B697CE /* Vocabulary Game.app */;
+			productReference = 3F33F4D71E1CAC2B00B697CE /* VocabularyGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F33F4EA1E1CAC2B00B697CE /* Vocabulary GameTests */ = {
+		3F33F4EA1E1CAC2B00B697CE /* VocabularyGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F33F5021E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "Vocabulary GameTests" */;
+			buildConfigurationList = 3F33F5021E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "VocabularyGameTests" */;
 			buildPhases = (
 				3F33F4E71E1CAC2B00B697CE /* Sources */,
 				3F33F4E81E1CAC2B00B697CE /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				3F33F4ED1E1CAC2B00B697CE /* PBXTargetDependency */,
 			);
-			name = "Vocabulary GameTests";
+			name = VocabularyGameTests;
 			productName = "Vocabulary GameTests";
-			productReference = 3F33F4EB1E1CAC2B00B697CE /* Vocabulary GameTests.xctest */;
+			productReference = 3F33F4EB1E1CAC2B00B697CE /* VocabularyGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3F33F4F51E1CAC2B00B697CE /* Vocabulary GameUITests */ = {
+		3F33F4F51E1CAC2B00B697CE /* VocabularyGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F33F5051E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "Vocabulary GameUITests" */;
+			buildConfigurationList = 3F33F5051E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "VocabularyGameUITests" */;
 			buildPhases = (
 				3F33F4F21E1CAC2B00B697CE /* Sources */,
 				3F33F4F31E1CAC2B00B697CE /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				3F33F4F81E1CAC2B00B697CE /* PBXTargetDependency */,
 			);
-			name = "Vocabulary GameUITests";
+			name = VocabularyGameUITests;
 			productName = "Vocabulary GameUITests";
-			productReference = 3F33F4F61E1CAC2B00B697CE /* Vocabulary GameUITests.xctest */;
+			productReference = 3F33F4F61E1CAC2B00B697CE /* VocabularyGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = student;
 				TargetAttributes = {
 					3F33F4D61E1CAC2B00B697CE = {
@@ -207,11 +210,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F33F4D21E1CAC2B00B697CE /* Build configuration list for PBXProject "Vocabulary Game" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 3F33F4D21E1CAC2B00B697CE /* Build configuration list for PBXProject "VocabularyGame" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -220,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F33F4D61E1CAC2B00B697CE /* Vocabulary Game */,
-				3F33F4EA1E1CAC2B00B697CE /* Vocabulary GameTests */,
-				3F33F4F51E1CAC2B00B697CE /* Vocabulary GameUITests */,
+				3F33F4D61E1CAC2B00B697CE /* VocabularyGame */,
+				3F33F4EA1E1CAC2B00B697CE /* VocabularyGameTests */,
+				3F33F4F51E1CAC2B00B697CE /* VocabularyGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F33F4E51E1CAC2B00B697CE /* LaunchScreen.storyboard in Resources */,
+				302442A32AD0255100DB3750 /* Launch Screen.storyboard in Resources */,
 				3F33F4E21E1CAC2B00B697CE /* Assets.xcassets in Resources */,
-				3F33F4E01E1CAC2B00B697CE /* Main.storyboard in Resources */,
+				30421BD72AD026A700D9983E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F33F4F01E1CAC2B00B697CE /* Vocabulary_GameTests.swift in Sources */,
+				3F33F4F01E1CAC2B00B697CE /* VocabularyGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,34 +289,15 @@
 /* Begin PBXTargetDependency section */
 		3F33F4ED1E1CAC2B00B697CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F33F4D61E1CAC2B00B697CE /* Vocabulary Game */;
+			target = 3F33F4D61E1CAC2B00B697CE /* VocabularyGame */;
 			targetProxy = 3F33F4EC1E1CAC2B00B697CE /* PBXContainerItemProxy */;
 		};
 		3F33F4F81E1CAC2B00B697CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F33F4D61E1CAC2B00B697CE /* Vocabulary Game */;
+			target = 3F33F4D61E1CAC2B00B697CE /* VocabularyGame */;
 			targetProxy = 3F33F4F71E1CAC2B00B697CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3F33F4DE1E1CAC2B00B697CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F33F4DF1E1CAC2B00B697CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3F33F4E31E1CAC2B00B697CE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F33F4E41E1CAC2B00B697CE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3F33F4FD1E1CAC2B00B697CE /* Debug */ = {
@@ -333,6 +318,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -361,6 +347,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -383,6 +370,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -403,6 +391,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -414,9 +403,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Vocabulary Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift\n\n$(SDKROOT)/usr/lib/swift\n\n",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.ssc.Vocabulary-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -426,9 +418,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Vocabulary Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift\n\n$(SDKROOT)/usr/lib/swift\n\n",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.ssc.Vocabulary-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -442,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.ssc.Vocabulary-GameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocabulary Game.app/Vocabulary Game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabularyGame.app/VocabularyGame";
 			};
 			name = Debug;
 		};
@@ -456,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.ssc.Vocabulary-GameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocabulary Game.app/Vocabulary Game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabularyGame.app/VocabularyGame";
 			};
 			name = Release;
 		};
@@ -489,7 +484,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F33F4D21E1CAC2B00B697CE /* Build configuration list for PBXProject "Vocabulary Game" */ = {
+		3F33F4D21E1CAC2B00B697CE /* Build configuration list for PBXProject "VocabularyGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F33F4FD1E1CAC2B00B697CE /* Debug */,
@@ -498,29 +493,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F33F4FF1E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "Vocabulary Game" */ = {
+		3F33F4FF1E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "VocabularyGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F33F5001E1CAC2B00B697CE /* Debug */,
 				3F33F5011E1CAC2B00B697CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3F33F5021E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "Vocabulary GameTests" */ = {
+		3F33F5021E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "VocabularyGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F33F5031E1CAC2B00B697CE /* Debug */,
 				3F33F5041E1CAC2B00B697CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3F33F5051E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "Vocabulary GameUITests" */ = {
+		3F33F5051E1CAC2B00B697CE /* Build configuration list for PBXNativeTarget "VocabularyGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F33F5061E1CAC2B00B697CE /* Debug */,
 				3F33F5071E1CAC2B00B697CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

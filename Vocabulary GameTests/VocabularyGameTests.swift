@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Vocabulary_Game
+@testable import VocabularyGame
 
 class Vocabulary_GameTests: XCTestCase {
     
